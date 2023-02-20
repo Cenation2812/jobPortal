@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.decision_area{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.job_title{
+    padding-top: 10px;
+    width: 200px;
+    background-color: lightgray;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+}
+
+.return{
+    transition: .3s;
+}
+
+.return:hover{
+    font-size: 30px;
+
+}

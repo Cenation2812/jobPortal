@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block jobdetail %}
+
+    
+<div class="details">
+    <p class="content">Company Name: {{job.job.company}}</p>
+    <p class="content">Company information: {{job.job.companyinfo}}</p>
+</div>
+
+<div class="details">
+    <h2><p class="content">Job title: {{job.job.jobtitle}}</p></h2>
+
+    <h4><p class="content">Job description or requirement: {{job.job.jobinfo}}</p></h4>
+
+
+</div>
+
+{% if job.type == 'seeker' %}
+
+<a href="/register/{{job.email}}/{{job.id}}/{{job.type}}"><button type="button" class="btn btn-primary">Apply for Job</button></a>
+{% endif %}
+{% endblock %}

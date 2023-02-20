@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block jobs %}
+
+{% if data.type == 'recruiter' %}
+<div class="addproduct">
+  <a href="/addjob/{{data.type}}/{{data.eid}}"><button type="button" class="btn btn-outline-primary">Add Job post</button></a>
+</div>
+{% elif data.type == 'seeker'%}
+<div class="viewapp">
+  <a href="/myapplication/{{data.eid}}/{{data.type}}"><button type="button" class="btn btn-outline-primary">View my applications</button></a>
+</div>
+{% else %}
+<div class="viewapp">
+  <a href="/myapplication/{{data.eid}}/{{data.type}}"><button type="button" class="btn btn-outline-primary">View all applications</button></a>
+</div>
+{% endif %}
+
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Company Name</th>
+        <th scope="col">Job Title</th>
+        <th scope="col">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for each in data.jobs %}
+        <tr>
+          <td>{{each.company}}</td>
+          <td>{{each.jobtitle}}</td>
+          {% if data.type == 'recruiter' %}
+          <td>
+            <a href="/updatejob/{{each.id}}/{{data.type}}/{{data.eid}}"><button type="button" class="btn btn-outline-success">Edit</button></a>
+            <a href="/deletejob/{{each.id}}/{{data.type}}/{{data.eid}}"><button type="button" class="btn btn-outline-danger">Delete</button></a>
+          </td>
+          {% elif data.type == 'seeker' or data.type == 'admin' %}
+          <td>
+            <a href="/viewdetails/{{data.eid}}/{{each.id}}/{{data.type}}"><button type="button" class="btn btn-outline-success">View</button></a>
+          </td>
+          {% endif %}
+        </tr>
+      {% endfor %}
+
+    </tbody>
+  </table>
+
+{% endblock %}

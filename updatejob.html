@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block update %}
+
+<form action="/updatejob/{{updatedetail.id}}/{{updatedetail.type}}/{{updatedetail.eid}}" method="POST">
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Company name</label>
+      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="comp" value="{{updatedetail.company}}">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Company email</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="compemail" value="{{updatedetail.eid}}">
+      </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Job title</label>
+      <input type="text" class="form-control" id="exampleInputPassword1" name="title" value="{{updatedetail.jobtitle}}">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">companyinfo</label>
+        <input type="text" class="form-control" id="exampleInputPassword1" name="info" value="{{updatedetail.companyinfo}}">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">jobinfo</label>
+        <input type="text" class="form-control" id="exampleInputPassword1" name="jinfo" value="{{updatedetail.jobinfo}}">
+      </div>
+    <button type="submit" class="btn btn-success">Update</button>
+  </form>
+
+{% endblock %}

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "capstone-job-portal",
+  "private_key_id": "5647eb5cbc3eece7d4337c0f31b648e7b8351e5b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDqJXpEXF01MBGy\nEiNNbevZDbWVhbV/MaDv9KqN4oWikibGWyGwxIJUkQdSfhD1zM73BguCoM+qDtUL\nFnTUzHLkY3xIxUGU4D+F2FnE875CDMbqakoe3gIb7ynQ2D9mqa9QNUhZc+w7t8Ze\nZMX4PdYhSDorbZfuBCGVDnjwm0yls6tTHMELaE92h1tapLiA4UOeed5JM7BMQdeU\n6+LLZX2F0yCaOWJ4l6r4sZHVLRicoGMSOgA140tiY/Xt3krevdGtTYR1WaRjYrQT\nXywZFcoBgTmOonoRiKFZKsnAL04NRdy5UFuVuOxMuxEBuboDV1fovgEt4+3Zbq+P\nz3gcnQ9JAgMBAAECggEAAcKt4Gk0XzPBEk5uGwUuToe6m4jxlCb+n4c+qAnxuMby\nCTBCuNZFZ5bej/l4LazwSm2udPk6DnyFkAuHbdkqrPptgwuOomysNZiqlh9CCTOY\n5EbPz1sad3TNIu+ZTG+OrKL17AxB1LIdSPTngyYN39qv60cr6wN3cCw3bxGv2hgT\nzUJQjvdIOy8u36W7R5JCSUhl7hEUalRFuJqmVZ1MTIz1m7ir/bHlwJUMGcyN8GCn\nylQge9p8+46HeXVXaBrjhr+n379eRDwjaRfkiNVETSXCy7ahVvetunLP2B5nj9fo\nHscBI353WPeLzdj1s6Eqg3soSTC17zf29EAcSnXUnQKBgQD5sQJVizsW6rRGeovC\nj9AHpeA8ovtU0h/LOJA81NH21TQqOqAlrciXcYXaB486L+rN8gyLbPFxEv+9KVPR\nD+HS4pxUexOvRmMF6+AgXoq/mpKTQdL7WX8eu1nAv9C4lXH4hxDH6AMZ0s6Fm/jD\nfBahoGE6wTyBmtLmMxNdTGJy5QKBgQDwD+yJOmHZ4PFQczNdbmJ8PdyrqyaSmExd\nNl6JpClTmDLRIgSrpuOgEoKDzMG5DbcvC7LxnO3IGmSYXkndMlOMrs1wMLLK2P1E\nTxVBH5DQx0X17o2/Fxop1xL+YxTYnmtaryGeEez5mxl5I6LN9VUow2coLQNQvvxU\nfENKtBxwlQKBgCKMZ3JGrYpiN0d5NVVaaMJmJTy+oGAAIv4PeYWxPMwWe/1L11Tf\nUt4Biy+71AmND8QnNa0lCdNHebNGwJ4wwGJZkJ/v161s486x8HUKH9CbJqTResvk\nej5aVfThlZO0uexVY/EFHUi5bnH2PtltlgQPGOT0T9bvATdw4cELDKQxAoGBAOmE\nM+zRE7ojK9m8Fez+oWKFspBy7hSPfUj2yENPorukQ1pXov9uWeGt37Nhi9f81YI3\n+Rs6MbsCoXPt1CANAmTI7SIC3QigxsyZuO0eTXopPY6bPNrzGAo3Iky+CNsmTvtp\nfGQMv92V19OUrJt32BzM5x2Xm7AB9+Ye8j5KsZd5AoGBAK1gKgXo2rFyqtXPYSjF\nlNerqB74kJlkF7A56KC5OUVM4T9UwezE17HaRNeEWK55LA9heOJoF7aPYDHLSbuS\nTwO23rgheVn0N4ZiDskD9KRj1ysWT79yN3NOoSSTPS5OH2LaMPIxVUhoMCpXVrS8\nO7DFRfx1qlwhoOwLnfX+QaPh\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fprr7@capstone-job-portal.iam.gserviceaccount.com",
+  "client_id": "116529326387550834593",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fprr7%40capstone-job-portal.iam.gserviceaccount.com"
+}

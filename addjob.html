@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block productform %}
+<form action="/addjob/{{detail.type}}/{{detail.email}}" method="POST">
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Company name</label>
+      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="company">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Job title</label>
+      <input type="text" class="form-control" id="exampleInputPassword1" name="title">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">companyinfo</label>
+        <input type="text" class="form-control" id="exampleInputPassword1" name="info">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">jobinfo</label>
+        <input type="text" class="form-control" id="exampleInputPassword1" name="jinfo">
+      </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+{% endblock %}
